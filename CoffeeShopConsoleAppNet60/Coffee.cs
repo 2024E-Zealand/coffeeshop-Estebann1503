@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CoffeeShopConsoleAppNet60
 {
-    public class Coffee
+    public abstract class Coffee
     {
         // Offentlig metode, der returnerer prisen på kaffen
-        public int Price()
+        public virtual int Price()
         {
             return 20; // Prisen på kaffen i danske kroner
         }
